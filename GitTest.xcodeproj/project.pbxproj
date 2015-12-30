@@ -15,6 +15,7 @@
 		DC8642321C3433F800220FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8642301C3433F800220FA9 /* LaunchScreen.storyboard */; };
 		DC86423D1C3433F800220FA9 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC86423C1C3433F800220FA9 /* GitTestTests.m */; };
 		DC8642481C3433F800220FA9 /* GitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8642471C3433F800220FA9 /* GitTestUITests.m */; };
+		DC8642571C34375F00220FA9 /* branchtest.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8642561C34375F00220FA9 /* branchtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DC8642431C3433F800220FA9 /* GitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8642471C3433F800220FA9 /* GitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestUITests.m; sourceTree = "<group>"; };
 		DC8642491C3433F800220FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8642551C34375F00220FA9 /* branchtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = branchtest.h; path = ../branchtest.h; sourceTree = "<group>"; };
+		DC8642561C34375F00220FA9 /* branchtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = branchtest.m; path = ../branchtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				DC8642251C3433F800220FA9 /* AppDelegate.h */,
 				DC8642261C3433F800220FA9 /* AppDelegate.m */,
+				DC8642551C34375F00220FA9 /* branchtest.h */,
+				DC8642561C34375F00220FA9 /* branchtest.m */,
 				DC8642281C3433F800220FA9 /* ViewController.h */,
 				DC8642291C3433F800220FA9 /* ViewController.m */,
 				DC86422B1C3433F800220FA9 /* Main.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC86422A1C3433F800220FA9 /* ViewController.m in Sources */,
+				DC8642571C34375F00220FA9 /* branchtest.m in Sources */,
 				DC8642271C3433F800220FA9 /* AppDelegate.m in Sources */,
 				DC8642241C3433F800220FA9 /* main.m in Sources */,
 			);
