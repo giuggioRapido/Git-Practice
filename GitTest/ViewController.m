@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSLog(@"View did load");
+    
+    NSLog(@"meow");
 }
 
 - (void)didReceiveMemoryWarning {
