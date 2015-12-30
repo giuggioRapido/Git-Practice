@@ -10,8 +10,4 @@
 
 @implementation branchtest
 
--(void)fakeMethod {
-    NSLog(@"fake method");
-}
-
 @end
