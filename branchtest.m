@@ -9,9 +9,13 @@
 #import "branchtest.h"
 
 @implementation branchtest
-
-- (void)pulledVersion {
+- (void) aMethod {
     
 }
+
+- (void)pulledVersion {
+    NSLog(@"meow");
+}
+
 
 @end
