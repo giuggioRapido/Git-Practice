@@ -13,9 +13,4 @@
     
 }
 
-- (void)pulledVersion {
-    NSLog(@"meow");
-}
-
-
 @end
