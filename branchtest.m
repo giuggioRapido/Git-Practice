@@ -10,4 +10,8 @@
 
 @implementation branchtest
 
+- (void)pulledVersion {
+    
+}
+
 @end
